@@ -1,0 +1,73 @@
+body {
+
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+h1 {
+    margin: 20px 0;
+    color: aqua;
+    text-align: left;
+}
+#clear-tasks {
+    background-color: #010a0454;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#clear-tasks:hover {
+    background-color: #4CAF50;
+}
+#delete-tasks{
+    background-color: rgba(255, 0, 0, 0.767);
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0;
+    border: none;
+}
+#delete-tasks:hover{
+    background-color: #011402;
+}
+#todo-input{
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+#Add-btn{
+    background-color: #0ea6cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#Add-btn:hover{
+    background-color: #ddb504;
+}
+
+textarea#added-tasks,
+textarea#edited-tasks,
+textarea#deleted-tasks {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    resize: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
