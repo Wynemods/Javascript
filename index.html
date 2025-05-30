@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To do app</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
-    <div class="container">
-        <h1>To do app</h1>
-        <form id="todo-form">
-            <input type="text" id="todo-input" placeholder="Add a new  To Do task" required>
-            <button type="submit" id="Add-btn">Add</button>
-            <!-- Removed Edit and Delete buttons from form -->
-        </form>
-        <ul id="todo-list"></ul>
-
+    <h1>Contact Management System</h1>
+    <div id="contact-form">
+        <input type="hidden" id="contact-id" />
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="phone" placeholder="Phone" required />
+        <button id="submit-btn">Add Contact</button>
     </div>
+    <div id="contacts-list"></div>
 
-<div class="container">
-<h2> Added, Edited and Deleted</h2>
-<textarea id="added-tasks" placeholder="Added tasks" readonly></textarea>
-<textarea id="edited-tasks" placeholder="Edited tasks" readonly></textarea>
-<textarea id="deleted-tasks" placeholder="Deleted tasks" readonly></textarea>
-
-
-
-</div>
-
-
+    <script src="scripts.js"></script>
 </body>
 </html>
